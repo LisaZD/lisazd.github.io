@@ -1,0 +1,270 @@
+/***********************
+GENERAL
+************************/
+
+body {
+  font-family: 'Yantramanav', sans-serif;
+}
+
+/**Needed to allow smooth scrolling when nav bar sticks to top; see-through to allow viewing of fixed header**/
+#seeThrough {
+  width: 100%;
+  margin: 0;
+  background: none;
+  height: 115px;
+}
+
+#wrapper {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 50px 5% 0;
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+ max-width: 100%; 
+}
+
+h3 {
+ margin: 0 0 1em 0; 
+ padding: 20px 0 0 0;
+}
+
+h4 {
+  margin-bottom: 0;
+  margin-left: 2.5%;
+}
+
+/***********************
+HEADING
+************************/
+
+header {
+  padding: 5px 0 20px 0;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: -1;
+  top: 0;
+}
+
+#logo {
+  text-align: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Calligraffitti', serif;
+  margin: 15px 0;
+  font-size: 1.75em;
+  line-height: 0.8em;
+}
+
+h2 {
+  font-size: 0.9em;
+  margin: -5px 0 0;
+  font-weight: normal;
+}
+
+/**Make bottom half of header transparent when scrolling**/
+.hiding {
+  background: linear-gradient(to top,  rgba(0,0,0,0) 0%,rgba(0,0,0,0) 50%,#4c586f 50%,#4c586f 100%);
+}
+
+/***********************
+NAVIGATION
+************************/
+
+.main-nav {
+  text-align: center;
+  height: 20px;
+  padding: 15px 0 10px;
+  margin-top: 85px;
+  margin-bottom: -130px;
+  z-index: 150;
+  position: relative;
+  text-transform: uppercase;
+  letter-spacing: 0.0625em;
+  box-shadow: 0px 2px 3px rgba(0,0,0,0.4);
+}
+
+.stickyNav {
+  top: 0;
+  position: fixed;
+  width: 100%;
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0 10px;
+  padding: 0;
+}
+
+nav li {
+ display: inline-block; 
+}
+
+nav a {
+  padding: 15px 10px;
+}
+
+/***********************
+FOOTER
+************************/
+footer {
+  font-size: 0.75em;
+  text-align: center;
+  padding-top: 50px;
+  color: #ccc;
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  margin: 0 5px;
+}
+
+/***********************
+SECTION: PORTFOLIO
+************************/
+.gallery {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.gallery li {
+  float: left;
+  width: 45%;
+  margin: 2.5%;
+  background: #f5f5f5;
+  color: #bdc3c7;
+  text-align: center;
+}
+
+.gallery li a p {
+  margin: 0;
+  padding: 5%;
+  font-size: 0.75em;
+  color: #bdc3c7;
+}
+
+#writing {
+  clear: both;
+  padding-top: 20px;
+}
+
+/***********************
+SECTION: ABOUT
+************************/
+
+#about {
+  clear: both;
+  padding-top: 70px;
+}
+
+.profile-photo {
+  display: block;
+  max-width: 150px;
+  margin: 0 auto 30px;
+  border-radius: 100%;
+}
+
+/***********************
+SECTION: CONTACT
+************************/
+
+#contact {
+  padding-top: 50px;
+  margin-top: -30px;
+}
+
+.contact-info {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9em;
+}
+
+.contact-info a, .contact-info li {
+ display: block;
+ min-height: 20px;
+ background-repeat: no-repeat;
+ background-size: 20px 20px;
+ padding: 0 0 0 30px;
+ margin: 0 0 10px;
+ color: #a2aab0;
+}
+
+.contact-info li.mail {
+ background-image: url(https://res.cloudinary.com/lisazd/image/upload/v1485897916/email_wux7cn.png); 
+  line-height: 1.5em;
+  margin-left: 30px;
+}
+
+.contact-info li.linkedin a {
+ background-image: url('https://res.cloudinary.com/lisazd/image/upload/v1485969856/linkedin_bold_cjja4h.png');
+  line-height: 1.7em;
+}
+
+/***********************
+RESPONSIVE DESIGN
+************************/
+/***********************
+ABOUT
+************************/
+@media screen and (min-width: 480px) {
+  .profile-photo {
+    float: right;
+    margin: 0 30px 15px;
+  }
+}
+
+
+/***********************
+COLORS
+************************/
+
+/* site body */
+body {
+ background: #ebeced;
+}
+
+#wrapper {
+  background: #ebeced;
+}
+
+/* header */
+header {
+  background: #4c586f;
+}
+
+/* nav background */
+nav {
+ background: #a2aab0; 
+}
+
+/* logo text */
+h1, h2 {
+ color: #ebeced; 
+}
+
+/* links */
+a {
+ color: #a2aab0; 
+}
+
+/* nav link */
+nav a, nav a:visited, nav a.selected {
+ color: #ebeced; 
+}
+
+/* hovered nav link */
+nav a:hover {
+ color: #3e3e3b; 
+}
