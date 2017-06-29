@@ -140,8 +140,12 @@ SECTION: PORTFOLIO
 
 .gallery li {
   float: left;
+  width: 95%;
+  margin: 2.5%;
+/*
   width: 28.33333%;
   margin: 2.5%;
+*/
   background: #f5f5f5;
   color: #bdc3c7;
   text-align: center;
@@ -153,7 +157,7 @@ SECTION: PORTFOLIO
 
 .gallery li a p {
   margin: 0;
-  padding: 5%;
+  padding: 5% 0;
   font-size: 0.75em;
   color: #a2aab0;
 }
@@ -227,8 +231,22 @@ ABOUT
     float: right;
     margin: 0 30px 15px;
   }
+
+/*gallery goes to 2 wide*/
+  .gallery li {
+    width: 45%;
+    margin: 2.5%;
+  }
 }
 
+
+/*gallery goes to 3 wide*/
+@media screen and (min-width: 660px) {
+  .gallery li {
+    width: 28.333333%;
+    margin: 2.5%;
+  }
+}
 
 /***********************
 COLORS
