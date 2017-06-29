@@ -140,18 +140,22 @@ SECTION: PORTFOLIO
 
 .gallery li {
   float: left;
-  width: 45%;
+  width: 28.33333%;
   margin: 2.5%;
   background: #f5f5f5;
   color: #bdc3c7;
   text-align: center;
+  outline: 1px solid rgba(189,195,199,0.5);
+  -webkit-box-shadow: 5px 6px 11px 0px rgba(162,170,176,0.9);
+  -moz-box-shadow: 5px 6px 11px 0px rgba(162,170,176,0.9);
+  box-shadow: 5px 6px 11px 0px rgba(162,170,176,0.9);
 }
 
 .gallery li a p {
   margin: 0;
   padding: 5%;
   font-size: 0.75em;
-  color: #bdc3c7;
+  color: #a2aab0;
 }
 
 #writing {
