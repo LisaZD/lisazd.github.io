@@ -259,7 +259,7 @@ ABOUT
 
 /*gallery goes to 3 wide*/
 
-@media screen and (min-width: 660px) {
+@media screen and (min-width: 1024px) {
     .gallery li {
         width: 28.333333%;
         margin: 2.5%;
