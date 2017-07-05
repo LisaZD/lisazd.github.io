@@ -64,12 +64,12 @@ h1 {
     font-family: 'Calligraffitti', serif;
     margin: 15px 0;
     font-size: 1.75em;
-    line-height: 0.8em;
+    line-height: 0.5em;
 }
 
 h2 {
     font-size: 0.9em;
-    margin: -5px 0 0;
+    margin: -5px 0 6px;
     font-weight: normal;
 }
 
